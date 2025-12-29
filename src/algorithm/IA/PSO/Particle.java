@@ -87,7 +87,7 @@ public class Particle {
     /**
      * 自定义适应度函数
      */
-    public void evaluateFitness(FitnessFunction fitnessFunction) {
+    public void evaluateFitness(ParticleSwarmOptimization.FitnessFunction fitnessFunction) {
         fitness = fitnessFunction.evaluate(position);
 
         // 更新个体最优
